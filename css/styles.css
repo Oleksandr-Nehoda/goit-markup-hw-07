@@ -67,7 +67,7 @@ ul {
 }
 
 .logo,
-.foot-logo,
+.footer__logo,
 .header__link,
 .contacts__link,
 .portfolio-card-link {
@@ -85,7 +85,7 @@ ul {
   line-height: 1.19em;
   color: var(--accent-text-cl);
 }
-.logo--accent-bl {
+.logo--accent {
   color: var(--title-text-cl);
 }
 .header__list {
@@ -507,7 +507,7 @@ ul {
   padding-top: 0;
 }
 
-.specialty-title {
+.specialty__title {
   margin: 0px 0px 50px 0px;
 
   font-weight: 700;
@@ -516,25 +516,25 @@ ul {
   text-align: center;
   color: var(--title-text-cl);
 }
-.specialty-list {
+.specialty__list {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.specialty-item:not(:last-child) {
+.specialty__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.specialty-item {
+.specialty__item {
   position: relative;
 }
 
-.specialty-img {
+.specialty__img {
   display: block;
 }
 
-.specialty-text {
+.specialty__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -555,17 +555,17 @@ ul {
 
 /*#region  Наша команда */
 
-.section.team {
+.team {
   background-color: var(--main-bg-cl);
 }
 
-.team-list {
+.team__list {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.team-item {
+.team__item {
   width: 270px;
   background-color: #ffffff;
   text-align: center;
@@ -573,11 +573,11 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-title {
+.team__title {
   margin: 0px 0px 50px 0px;
   font-weight: 700;
   font-size: 36px;
@@ -586,16 +586,16 @@ ul {
   color: var(--title-text-cl);
 }
 
-.team-img {
+.team__img {
   display: block;
 }
 
-.team-description {
+.team__description {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-name {
+.team__name {
   margin-top: 0px;
   margin-bottom: 10px;
 
@@ -604,7 +604,7 @@ ul {
   line-height: 1.19em;
   color: var(--title-text-cl);
 }
-.team-profession {
+.team__profession {
   margin: 0 0 16px 0;
 
   line-height: 1.19em;
@@ -612,18 +612,18 @@ ul {
 
 /* Іконки соц-мереж */
 
-.socials-list {
+.socials__list {
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.socials-item:not(:last-child) {
+.socials__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.socials-link {
+.socials__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -638,20 +638,20 @@ ul {
   transition-timing-function: var(--cubic);
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   color: #ffffff;
   background-color: var(--accent-text-cl);
 }
 
-.socials-icon {
+.socials__icon {
   fill: currentColor;
 }
 /*#endregion*/
 
 /*#region  Постійні клієнти */
 
-.client-title {
+.client__title {
   margin: 0 0 50px 0;
   font-size: 36px;
   line-height: 1.17em;
@@ -659,17 +659,17 @@ ul {
   color: var(--title-text-cl);
 }
 
-.client-list {
+.client__list {
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -684,13 +684,13 @@ ul {
   transition-timing-function: var(--cubic);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   color: var(--accent-text-cl);
   border-color: var(--accent-text-cl);
 }
 
-.client-icon {
+.client__icon {
   fill: currentColor;
 }
 /*#endregion*/
@@ -703,12 +703,12 @@ ul {
   padding-bottom: 60px;
 }
 
-.conteiner.foot {
+.footer__conteiner {
   display: flex;
   align-items: baseline;
 }
 
-.foot-logo {
+.footer__logo {
   display: block;
   margin-bottom: 30px;
 
@@ -718,13 +718,13 @@ ul {
   line-height: 1.19em;
   color: var(--accent-text-cl);
 }
-.logo-accent-wh {
+.footer__logo--accent {
   color: #ffffff;
 }
-.footer-addr {
+.address {
   font-style: normal;
 }
-.footer-addr-residential {
+.address__residential {
   margin-top: 0;
   margin-bottom: 9px;
 
@@ -733,16 +733,16 @@ ul {
   color: #ffffff;
 }
 
-.addr-cont-list {
+.address__list {
   margin: 0;
   padding: 0;
 }
 
-.addr-cont-item:first-child {
+.address__item:first-child {
   margin-bottom: 9px;
 }
 
-.footer-cont-link {
+.address__link {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71em;
@@ -753,16 +753,16 @@ ul {
   transition-timing-function: var(--cubic);
 }
 
-.footer-cont-link:hover,
-.footer-cont-link:focus {
+.address__link:hover,
+.address__link:focus {
   color: var(--accent-text-cl);
 }
 
-.foot-conteiner-socials {
+.socials {
   margin-left: 70px;
 }
 
-.title-call {
+.socials__title {
   display: block;
   margin: 0 0 20px 0;
   text-transform: uppercase;
@@ -771,13 +771,7 @@ ul {
   color: #ffffff;
 }
 
-.foot-socials-list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.foot-socials-link {
+.socials__link--darck {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -793,24 +787,33 @@ ul {
   transition-timing-function: var(--cubic);
 }
 
-.foot-socials-link:hover,
-.foot-socials-link:focus {
+.socials__link--darck:hover,
+.socials__link--darck:focus {
   background-color: var(--accent-text-cl);
 }
 
-.foot-socials-icon {
+.socials__icon--darck {
   fill: currentColor;
 }
 
-.foot-conteiner-subscribe {
+.subscribe {
   margin-left: 93px;
 }
 
-.subscribe-form {
+.subscribe__title {
+  display: block;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14em;
+  color: #ffffff;
+}
+
+.subscribe__form {
   display: flex;
 }
 
-.subscribe-input {
+.subscribe__input {
   width: 358px;
   padding: 15px 16px;
   margin-right: 12px;
@@ -828,26 +831,26 @@ ul {
   transition-timing-function: var(--cubic);
 }
 
-.subscribe-input:focus,
-.subscribe-input:hover {
+.subscribe__input:focus,
+.subscribe__input:hover {
   border-color: #ffffff;
 }
 
-.subscribe-input::placeholder {
+.subscribe__input::placeholder {
   font-size: 16px;
   line-height: 1.25em;
 
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-btn-submit {
+.subscribe__button {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 28px;
 }
 
-.subscribe-send-icon {
+.subscribe__icon {
   margin-left: 10px;
 }
 
