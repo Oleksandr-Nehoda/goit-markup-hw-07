@@ -87,7 +87,7 @@ body {
 }
 
 /* Іконки соц-мереж */
-.socials__list {
+.socials {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1100,11 +1100,11 @@ body {
           align-items: baseline;
 }
 
-.socials {
+.footer-socials {
   margin-left: 70px;
 }
 
-.socials__title {
+.footer-socials__title {
   display: block;
   margin: 0 0 20px 0;
   text-transform: uppercase;
