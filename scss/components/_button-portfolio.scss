@@ -3,11 +3,13 @@
     padding: 0;
     display: flex;
     justify-content: center;
+
+    &__item:not(:last-child) {
+      margin-right: 8px;
+    }
   }
   
-  .list-btn__item:not(:last-child) {
-    margin-right: 8px;
-  }
+  
   
   .portfolio-btn {
     padding: 6px 22px;
